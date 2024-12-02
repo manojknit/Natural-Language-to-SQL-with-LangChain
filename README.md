@@ -25,7 +25,7 @@ The project includes two example scripts:
 
 ### Architecture
 <img src="./img/rag.png" height="600" width="1200" >
-
+```
 +-----------+      +----------------+      +-------------------+
 |  Client   | ---> |  API Gateway   | ---> |     Lambda        |
 |  (Request)|      |  (REST API)    |      |   (Invoke Model)  |
@@ -46,7 +46,7 @@ The project includes two example scripts:
                                   +-----------------+
                                   |   Response     |
                                   +-----------------+
-
+```
 
 ## Prerequisites
 
